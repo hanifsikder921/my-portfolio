@@ -17,8 +17,9 @@ body {
     --dark2: #474747;
     --dark1: #181818;
     --dark3: #757575;
-    --btn_bg: #FD6E0A;
+    --btn_bg: #919CFB;
     --primary_bg: #FFF8F3;
+    --new-col: #919CFB;
 }
 
 main{
@@ -314,6 +315,11 @@ form{
 
 .connect>a{
     margin-right: 10px;
+    color: var(--btn_bg);
+    transition: 0.2s;
+}
+.connect>a:hover{
+    color: #4858ed;
 }
 
 .footer_section .connect>h2, .footer_section .message>h2{
